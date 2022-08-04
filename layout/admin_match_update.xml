@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8D108"
+        android:gravity="center"
+        android:text="UPDATE DATAS..."
+        android:textColor="#FF1201"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        tools:ignore="TextContrastCheck">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="TITLE"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/update_title1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:background="@drawable/round_input"
+        android:gravity="center"
+        android:text="Title"
+        android:textStyle="bold">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="MACTH PLACE"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/update_place"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_input"
+        android:gravity="center"
+        android:text="place"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="MACTH PLACE"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_input"
+        android:gravity="center"
+        android:text="date"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/update_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/round_input"
+
+
+            android:backgroundTint="@color/teal_700"
+
+            android:text="update"
+            app:icon="@drawable/ic_baseline_edit">
+
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/update_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="back"
+            android:background="@drawable/round_input"
+            app:icon="@drawable/ic_baseline_arrow_back_24">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

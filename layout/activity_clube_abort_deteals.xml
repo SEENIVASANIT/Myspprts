@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sthc_pic">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLUBE NANE= SIVAKASI TOWN HOCKEY CLUB"
+        android:textSize="19dp"
+        android:textStyle="bold"
+
+        android:textColor="#000"
+
+        android:layout_marginVertical="20dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLUB location= SIVAKASI_TOWN"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#000"
+        android:layout_marginVertical="20dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CIUB Incharge= Ashokan MLA ,Inbasekaran PHES"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#000"
+        android:layout_marginVertical="20dp"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CIUB Chogr= Ashokan MLA ,Inbasekaran PHES"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#000"
+        android:layout_marginVertical="20dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CIUB Phone No= 91+9677978279,91+6380562898"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:layout_marginVertical="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/open_facebook"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="Facebook"
+            app:icon="@drawable/ic_abort_outline_24" />
+
+        <Button
+            android:id="@+id/open_youtube"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="55dp"
+
+            android:text="YouTube"
+            app:icon="@drawable/ic_abort_outline_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/open_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="122dp"
+
+
+            android:text="Instagram"
+            app:icon="@drawable/ic_abort_outline_24"/>
+    </LinearLayout>
+</LinearLayout>

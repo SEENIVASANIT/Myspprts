@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="#ffff"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Allthebest"
+                android:textColor="#000"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TITLE:  "
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:id="@+id/admain_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title"
+                android:padding="8dp"
+                android:text="Title"
+                android:textColor="#000"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BLASE:  "
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:id="@+id/admain_maths_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="Plase"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:text="Edit"
+
+                app:icon="@drawable/ic_baseline_edit"
+
+
+                >
+
+            </Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:text="Delete"
+                app:icon="@drawable/ic_baseline_delete_24">
+
+            </Button>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="upload pictures"
+                app:icon="@drawable/ic_baseline_cloud_upload_24"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:text="add  playres"
+
+                app:icon="@drawable/ic_baseline_group_add_24"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </Button>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
